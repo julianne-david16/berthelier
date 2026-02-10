@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: luxury_project
+Version: 1.0
+Summary: Luxury Data Analysis for EDHEC
+Requires-Dist: pandas
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: requests
+Requires-Dist: ipykernel
+Dynamic: requires-dist
+Dynamic: summary

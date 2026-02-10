@@ -1,0 +1,13 @@
+# Ignore l'environnement virtuel (trop lourd, spécifique à ta machine)
+.venv/
+venv/
+
+# Ignore les fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Ignore les fichiers systèmes Mac/Windows
+.DS_Store
+
+# TRES IMPORTANT : Ignore ta clé GCP (sinon tu te fais pirater)
+*.json
