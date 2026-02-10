@@ -11,3 +11,4 @@ __pycache__/
 
 # TRES IMPORTANT : Ignore ta clé GCP (sinon tu te fais pirater)
 *.json
+*.csv

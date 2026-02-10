@@ -2,3 +2,4 @@ pandas
 google-cloud-bigquery
 requests
 ipykernel
+db-types
