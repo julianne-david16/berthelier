@@ -11,5 +11,5 @@ def get_exchange_rates(base_currency="EUR"):
         df = pd.DataFrame(list(rates.items()), columns=['currency', 'rate'])
         return df
     else:
-        print("❌ Erreur API")
+        print("Erreur API")
         return None
