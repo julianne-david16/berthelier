@@ -9,7 +9,7 @@ def get_data(brand=brand):
     """
     Récupère les données depuis la table Source (celle du prof)
     """
-    print(f"📥 Chargement des données pour {brand}...")
+    print(f"Chargement des données pour {brand}...")
     
     # 1. Utilisation des variables params.py 
     query = f"""
