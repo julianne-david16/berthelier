@@ -5,6 +5,7 @@ venv/
 # Ignore les fichiers compilés Python
 __pycache__/
 *.pyc
+*.egg-info/
 
 # Ignore les fichiers systèmes Mac/Windows
 .DS_Store

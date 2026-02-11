@@ -1,10 +1,11 @@
 from google.cloud import bigquery
 from google.oauth2 import service_account
 import pandas as pd
+from pathlib import Path
 
 # --- CONFIGURATION ---
 # Le fichier est juste à côté du script, donc on met juste le nom
-key_path = "gcp-key.json"
+key_path = "secrets/gcp-key.json"
 
 print(f"1. Lecture de la clé : {key_path}")
 
