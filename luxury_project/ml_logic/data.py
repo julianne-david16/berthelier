@@ -31,7 +31,7 @@ def get_data(brand=brand):
 
 def load_data_to_bq(df, table_name, replace=True):
     """
-    Sauvegarde le DataFrame dans TON projet BigQuery
+    On sauvegarde le DataFrame dans notre projet BigQuery
     """
     print(f"Préparation de la sauvegarde vers {table_name}...")
 
