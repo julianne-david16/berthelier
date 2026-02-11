@@ -7,9 +7,9 @@ with open("requirements.txt") as f:
 requirements = [x.strip() for x in content if "git+" not in x]
 
 setup(
-    name="luxury_project",      # <--- CHANGE THIS to your actual project name
+    name="luxury_project",     
     version="1.0",
     description="Luxury Data Analysis for EDHEC",
-    packages=find_packages(),   # Automatically finds your logic folder
-    install_requires=requirements # Installs pandas, google-cloud, etc.
+    packages=find_packages(),  
+    install_requires=requirements
 )
